@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Рецепты от шефа</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Sintony:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/logo1.png" alt="Restaurant">
+                    </div>
+                    <div class="col-lg-5">
+                        <nav>
+                            <ul class="menu d-flex justify-content-between">
+                                <li class="menu__item">
+                                    <a href="index.html">
+										О нас
+                                    </a>
+                                    <li>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="index.html">
+                                        Акции
+                                     </a>
+                                    </li>
+                                    <li class="menu__item ">
+                                        <a href="#">
+										Меню
+									</a>
+                                    </li>
+                                    <li class="menu__item ">
+                                        <a class="buttonMap " href="#">
+										Как проехать
+									</a>
+                                    </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="book cta d-flex justify-content-center ">
+							<span class="book__icon "></span>
+							Забронировать столик
+						</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offer1">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-12 ">
+                        <div class="title ">
+                            <h2 class="title__heading ">
+                                Ваши любимые блюда
+                            </h2>
+                            <p class="title__desc ">
+                                в нашем
+                                <span>
+									ресторане
+								</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="call ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-12 ">
+                    <div class="phone d-flex ml-auto mr-auto ">
+                        <div class="phone__text ">
+                            Банкеты
+                            <span class="yellow ">
+								Доставка
+							</span>
+                        </div>
+                        <div class="phone__digits" id="about">
+                            8-495-001-002
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="height: 30px; background: url(https://uguide.ru/js/script/girlianda_uguide_ru_1.gif) repeat-x 100%;"></div>
+    <div class="special-top">
+        <div class="dechef" class="special-title2">
+            <h2> Рождественское меню от шефа</h2>
+        </div>
+        <div class="spec"> </div>
+    </div>
+    <footer class=" footer ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-12 ">
+                    <ul class="socials d-flex justify-content-center ">
+                        <li class="socials__item socials__item_fb ">
+                            <a href="https://www.facebook.com/eventifyuk/ "></a>
+                        </li>
+                        <li class="socials__item socials__item_tw ">
+                            <a href="https://twitter.com/EventifyUK "></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4 ">
+                    <div class="line "></div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="credits ">
+                        2020 © All rights reserved
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="line "></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-content">
+        <button type="button " class="modal-content-close " title="Закрыть ">Закрыть</button>
+        <h1>Бронирование</h1>
+        <p>Заполните форму </p>
+        <form class="book-form" method="POST">
+            <input type="text " class="login-input " id="login" placeholder="Ваше имя " name="login " required>
+            <input type="telephone " class="tele " id="tele" name="tele " placeholder="телефон " required>
+            <input type='date' class=" tele " id="date" name="date " placeholder="Дата " required>
+            <input type='time' class=" tele " id="time" name="time " placeholder="Время " required>
+            <button class="btnSubmit" type="submit" value=" Забронировать "> Забронировать </button>
+        </form>
+    </div>
+
+    <div class="success">
+        <button type="button" class="modal-content-close" title="Закрыть">Закрыть</button>
+        <p> Ваша заявка отправлена!</p>
+        <p>В ближайшее время мы свяжемся с вами.</p>
+    </div>
+
+    <hr>
+    <div class="modal-content-map">
+        <button type="button" class="modal-content-close " title="Закрыть ">Закрыть</button>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2128.273477209131!2d40.94234686699947!3d57.762759513970956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ad4fdfcf98db99%3A0x785abfb9346a86c8!2z0YPQuy4g0KHQvtCy0LXRgtGB0LrQsNGPLCAzNiwg0JrQvtGB0YLRgNC-0LzQsCwg0JrQvtGB0YLRgNC-0LzRgdC60LDRjyDQvtCx0LsuLCAxNTYwMDU!5e0!3m2!1sru!2sru!4v1607772988676!5m2!1sru!2sru"
+            width="764" height="660" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    <div class="overlay"></div>
+
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="js/main.js "></script>
+</body>
+
+</html>
